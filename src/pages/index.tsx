@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       </Head>
       <div>
         <div className="flex h-full w-full flex-col lg:grid lg:min-h-screen lg:grid-cols-[40%_60%]">
-          <div className="flex h-full w-full flex-col justify-center bg-primary text-white">
+          <div className="flex min-h-screen w-full flex-col justify-center bg-primary text-white">
             <div className="mx-auto w-full px-5 sm:max-w-[23.750rem] sm:px-0">
               <h1 className="mt-[3.375rem]">SME Better</h1>
               <p className="mt-[3.625rem] text-[1.2rem]">Log into your Business Manager</p>
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
                   />
                 </fieldset>
               </form>
-              <div className="my-5 flex w-full flex-col items-center">
+              <div className="my-7 flex w-full flex-col items-center">
                 <p className="mx-auto text-center">
                   <span className="opacity-50">Don’t have an account?</span>
                   <a href="#" className="pl-2 font-semibold text-white">
