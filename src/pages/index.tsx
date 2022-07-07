@@ -64,7 +64,9 @@ const Home: NextPage = () => {
                 <div className="mt-3 mb-8 w-full">
                   <button className="flex h-[2.9rem] w-full cursor-pointer items-center justify-center gap-4 rounded-[4px] border bg-white text-center text-sm font-medium uppercase text-dark transition-all">
                     <Google className="h-[1.3rem] w-[1.3rem]" />
-                    <span className="opacity-[0.96]">Log in with Google</span>
+                    <span className="text-[14px] text-[#454749] opacity-[0.96]">
+                      Log in with Google
+                    </span>
                   </button>
                 </div>
               </div>
